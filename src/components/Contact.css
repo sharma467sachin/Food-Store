@@ -1,0 +1,72 @@
+
+.contact-us-container {
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    width: 50%;
+    padding: 90px;
+    animation: slideInFromLeft 1s ease-out;
+  }
+  
+  .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 13% auto;
+    animation: slideFromBottom 1s ease-out;
+  }
+  
+  .black-text {
+    color: black;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+  
+  #send {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #send:hover {
+    background-color: #45a049;
+  }
+  
+  #cont_img{
+    height: 400px;
+    width: 550px;
+    border-radius: 20px;
+  }

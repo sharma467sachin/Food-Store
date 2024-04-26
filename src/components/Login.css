@@ -1,0 +1,62 @@
+.LoginBody{
+    background-color: black;
+    min-height: 490px;
+    display: flex;
+    justify-content: center;
+}
+.LoginF {
+    background-color:  rgba(247, 248, 245, 0.966);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(15, 14, 14, 0.6);
+    height: 100%;
+    width: 400px; 
+    margin: 5% 10%; 
+  }
+
+  
+  /* Style the form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .form-label {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Style the form inputs */
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  #Lb {
+    width: 100%;
+    padding: 10px;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .justify-content-centerL {
+    width: 90%;
+    justify-content: center !important;
+}
+  
+.row{
+    margin-top: 0;
+}

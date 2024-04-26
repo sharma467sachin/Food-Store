@@ -1,0 +1,212 @@
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(4 4 5) !important;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: rgb(229 223 223 / 65%);
+    --bs-nav-link-hover-color: rgb(218 221 19 / 80%);
+    --bs-nav-link-disabled-color: rgb(242 238 238 / 30%);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.me-auto{
+  padding-left: 25%;
+  background-color: black;
+}
+
+.nav-link {
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+
+.nav-link:hover{
+    color: yellow;
+}
+
+.navbar-brand {
+    color: yellow;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.navbar-brand:hover{
+    color: yellow;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: YELLOW;
+}
+
+
+.navbar{
+    --bs-navbar-brand-color: rgb(237 234 234);
+    --bs-navbar-brand-hover-color: rgb(247 247 247);
+    --bs-navbar-toggler-icon-bg: url("https://cdn-icons-png.freepik.com/512/10613/10613684.png");
+}
+
+#brand_icon {
+    height: 79px;
+    width: 60px;
+    overflow: hidden;
+    margin: auto 10px;
+}
+
+#login{
+    margin: auto 2px;
+    background-color: yellow;
+    color: black;
+}
+#logout{
+    margin: auto 2px;
+    background-color: yellow;
+    color: black;
+}
+#register{
+    margin: auto 2px;
+    background-color:black ;
+    color: white;
+    border: 1px solid white;
+}
+
+.front_btn{
+    margin-left: 30px;
+}
+
+#Contact{
+    margin-right: 44px;
+}
+
+#Order{
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+#headingg{
+    font-size:50px;
+}
+
+#contentt{
+    font-size: 15px;
+}
+
+/* Center the content horizontally */
+.container-B {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Adjust spacing between blogs */
+  .row {
+    margin-top: 20px;
+  }
+  
+  /* Additional styling for blog titles */
+  .card-title {
+    font-size: 1.25rem; /* Increase font size for titles */
+  }
+  
+  
+  #btns{
+    background-color: transparent;
+    color: white;
+    margin: 2px;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+ .recipeC .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slideFromBottom {
+    0%{
+        transform: translateY(250%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+  }
+  @keyframes slideTopToBottom {
+    0%{
+        transform: translateY(-25%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+  }
+  
+  .slide-in {
+    animation: slideInFromLeft 1s ease-out;
+  }
+  #Order{
+    animation: slideFromBottom 1s ease-out;
+  }
+
+  .caro{
+    animation: slideTopToBottom 1s ease-out;
+  }
+  .dishInfo{
+    color: white;
+    font-style: italic;
+  }
+  .recipeC .carousel-inner{
+    animation: slideInFromLeft 2s ease-out;
+  }
+
+  .text-center{
+    animation: slideTopToBottom 1s ease-out;
+  }
+
+ .card-body {
+  animation: slideInFromLeft 1s ease-out;
+ }
+ .LoginF{
+  animation: slideInFromLeft 1s ease-out;
+ }
+
+ .image{
+  animation: slideTopToBottom 1s ease-out;
+}
+
+.form-container-Signup{
+  animation: slideFromBottom 1s ease-out;
+}
+
+.RegisterImage{
+  animation: slideTopToBottom 1s ease-out;
+}

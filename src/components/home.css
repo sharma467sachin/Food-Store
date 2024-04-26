@@ -1,0 +1,8 @@
+.Home-body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 490px;
+    overflow: hidden;   
+}
+

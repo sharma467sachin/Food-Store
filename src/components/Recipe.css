@@ -1,0 +1,45 @@
+.Recipe-body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Recipe.css */
+/* .recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  } */
+  
+  .recipe {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  /* .dishes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  } */
+  
+  /* .dish {
+    width: 300px;
+  } */
+  
+  .dish img {
+    width: 300px;
+    height: 300px; /* Set the height to maintain aspect ratio */
+    object-fit: cover; /* Ensure the image covers the whole space */
+  }
+  
+  .dishInfo {
+    padding: 10px;
+  }
+  
+ #dropdown-basic-button{
+    background-color: gold;
+    color: black;
+    margin: 5px;
+ } 
